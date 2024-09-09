@@ -140,35 +140,42 @@ Layout and Components
   box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
-.language-buttons {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 20px;
+/* Language Dropdown Styles */
+#language-selector {
+  margin-top: 10px;
+  text-align: right;
 }
 
-/* Language Button Styles */
-.language-button {
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid #ccc;
-}
-
-.language-buttons button {
-  background-color: #007edf;
-  color: #fff;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-left: 10px;
+#language-dropdown {
+  background: url('assets/images/flag-en.png') no-repeat left center;
+  background-size: 30px 30px;
+  padding-left: 35px;
+  width: 100px;
   border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 30px;
 }
 
-.language-buttons button:hover {
-  background-color: #005bb5;
+#language-dropdown option {
+  padding-left: 35px;
 }
+
+#language-dropdown option[value="en"] {
+  background: url('assets/images/flag-en.png') no-repeat left center;
+  background-size: 30px 30px;
+}
+
+#language-dropdown option[value="fr"] {
+  background: url('assets/images/flag-fr.png') no-repeat left center;
+  background-size: 30px 30px;
+}
+
+#language-dropdown option[value="ja"] {
+  background: url('assets/images/flag-ja.png') no-repeat left center;
+  background-size: 30px 30px;
+}
+
 
 /*******************************************************************************
 Responsive Styles
