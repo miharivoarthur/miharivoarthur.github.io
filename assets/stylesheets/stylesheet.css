@@ -166,20 +166,20 @@ img {
   box-shadow: 0 0 5px #ebebeb;
 }
 
-icon {
-  /*display: block;
+/*icon {
+  display: block;
   position: absolute;
   top:0;
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: #fff;*/
+  color: #fff;
   background: url('assets/images/in.png') #F2F2F2 no-repeat 95% 50%;
-  /*font-weight: 400;
+  font-weight: 400;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;*/
-}
+  border-bottom-right-radius: 2px;
+}*/
 
 #profile-photo {
   float: left;
