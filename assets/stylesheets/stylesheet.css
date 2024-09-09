@@ -146,6 +146,16 @@ Layout and Components
   margin-bottom: 20px;
 }
 
+/* Language Button Styles */
+.language-button {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
 .language-buttons button {
   background-color: #007edf;
   color: #fff;
