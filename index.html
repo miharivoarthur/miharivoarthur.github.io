@@ -15,11 +15,15 @@
 <body>
 
   <!-- LANGUAGE SELECT -->
-<select id="language-options">
-  <img src="assets/images/flag-en.png" class="language-button" alt="English" onclick="setLanguage('en')">
-  <img src="assets/images/flag-fr.png" class="language-button" alt="Français" onclick="setLanguage('fr')">
-  <img src="assets/images/flag-ja.png" class="language-button" alt="日本語" onclick="setLanguage('ja')">
-</select>
+<!-- LANGUAGE SELECT DROPDOWN -->
+<div id="language-selector">
+  <select id="language-dropdown" onchange="setLanguage(this.value)">
+    <option value="en" data-icon="assets/images/flag-en.png">English</option>
+    <option value="fr" data-icon="assets/images/flag-fr.png">Français</option>
+    <option value="ja" data-icon="assets/images/flag-ja.png">日本語</option>
+  </select>
+</div>
+
 
   <!-- HEADER -->
   <div id="header_wrap" class="outer">
