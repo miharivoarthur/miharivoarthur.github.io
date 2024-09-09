@@ -50,5 +50,7 @@ function setLanguage(lang) {
   document.getElementById('contact_content').innerHTML = content[lang].contact_content;
 }
 
-// Set default language to English
-setLanguage('en');
+// Set default language to English on page load
+document.addEventListener("DOMContentLoaded", function () {
+  setLanguage('en');
+});
