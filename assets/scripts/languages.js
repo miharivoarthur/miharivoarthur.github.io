@@ -46,9 +46,4 @@ function setLanguage(lang) {
   document.getElementById('research_content').innerHTML = content[lang].research_content;
   document.getElementById('projects_title').innerHTML = content[lang].projects_title;
   document.getElementById('projects_content').innerHTML = content[lang].projects_content;
-  document.getElementById('contact_title').innerHTML = content[lang].contact_title;
-  document.getElementById('contact_content').innerHTML = content[lang].contact_content;
-}
-
-// Set default language to English
-setLanguage('en');
+  document.getElementById('contact_title
