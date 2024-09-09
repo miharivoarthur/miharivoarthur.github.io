@@ -60,7 +60,3 @@ function changeLanguage(event) {
     }
   }
 }
-
-
-// Set default language to English on page load
-setLanguage('en');
