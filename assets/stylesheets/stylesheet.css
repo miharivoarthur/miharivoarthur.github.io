@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.outer {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.inner {
+  padding: 20px;
+}
+
+#language-options {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.language-button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Image Styles: Circle on Upper Right */
+.profile-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  object-fit: cover;
+}
+
+/* CV Download Section */
+.cv-download {
+  margin-top: 20px;
+}
