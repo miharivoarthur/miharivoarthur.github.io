@@ -60,3 +60,9 @@ function changeLanguage(event) {
     }
   }
 }
+
+
+// Set default language to English on page load
+document.addEventListener("DOMContentLoaded", function () {
+  setLanguage('en');
+});
