@@ -37,20 +37,26 @@ const content = {
   }
 };
 
-function setLanguage(lang) {
-  document.getElementById('project_title').innerHTML = content[lang].project_title;
-  document.getElementById('project_tagline').innerHTML = content[lang].project_tagline;
-  document.getElementById('about_title').innerHTML = content[lang].about_title;
-  document.getElementById('about_content').innerHTML = content[lang].about_content;
-  document.getElementById('research_title').innerHTML = content[lang].research_title;
-  document.getElementById('research_content').innerHTML = content[lang].research_content;
-  document.getElementById('projects_title').innerHTML = content[lang].projects_title;
-  document.getElementById('projects_content').innerHTML = content[lang].projects_content;
-  document.getElementById('contact_title').innerHTML = content[lang].contact_title;
-  document.getElementById('contact_content').innerHTML = content[lang].contact_content;
-}
+function changeLanguage(event) {
+  const lang = event.target.value;
+  const elements = {
+    project_title: document.getElementById('project_title'),
+    project_tagline: document.getElementById('project_tagline'),
+    about_title: document.getElementById('about_title'),
+    about_content: document.getElementById('about_content'),
+    research_title: document.getElementById('research_title'),
+    research_content: document.getElementById('research_content'),
+    projects_title: document.getElementById('projects_title'),
+    projects_content: document.getElementById('projects_content'),
+    contact_title: document.getElementById('contact_title'),
+    contact_content: document.getElementById('contact_content')
+  };
+  
+  const selectedContent = content[lang];
 
-// Set default language to English on page load
-document.addEventListener("DOMContentLoaded", function () {
-  setLanguage('en');
-});
+  for (const key in elements) {
+    if (elements[key]) {
+      elements[key].innerHTML = selectedContent[key];
+    }
+  }
+}
