@@ -1,25 +1,25 @@
 const content = {
   en: {
     project_title: "Arthur RAMANDALINA",
-    project_tagline: "Doctoral Student | Structural Dynamics | Seismic Isolation Researcher",
+    project_tagline: "Doctoral Student | Structural Dynamics | Seismic Isolation",
     about_title: "About Me",
-    about_content: "I am a doctoral student in the Structural Dynamics Laboratory at Saitama University. My research focuses on assessing the effectiveness of silicone rubber in seismic isolation bearings through experimental studies.",
+    about_content: "I am a doctoral student in the Structural Mechanics and Dynamics Laboratory at Saitama University. My research focuses on assessing the effectiveness of silicone elastomer in seismic isolation bearings through experimental studies.",
     research_title: "Research",
-    research_content: "My research explores advanced techniques in earthquake engineering to improve the safety and resilience of structures.",
+    research_content: "My research explores advanced techniques in isolation technologies to improve the safety and resilience of buildings and structures.",
     projects_title: "Projects",
-    projects_content: "<li>Seismic Isolation Bearings: Developed experimental models for silicone rubber bearings.</li><li>Continuum Mechanics Simulations: Applied continuum mechanics principles to simulate stress and deformation in hyperelastic materials.</li><li>MATLAB and Python Simulations: Created computational models for structural dynamic analysis and simulation.</li>",
+    projects_content: "<li>Seismic Isolation Bearings: Developed experimental models for silicone elastomeric bearings.</li><li>Continuum Mechanics Simulations: Applied continuum mechanics principles to simulate stress and deformation in hyperelastic materials.</li><li>MATLAB and Python Simulations: Created computational models for structural mechanic and dynamic analysis.</li>",
     contact_title: "Contact",
     contact_content: 'Feel free to reach out to me via <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> or connect with me on <a href="https://github.com/miharivoarthur">GitHub</a>.'
   },
   fr: {
     project_title: "Arthur RAMANDALINA",
-    project_tagline: "Doctorant | Dynamique des Structures | Chercheur en Isolation Sismique",
+    project_tagline: "Doctorant | Dynamique des Structures | Isolation Sismique",
     about_title: "À Propos",
-    about_content: "Je suis doctorant au laboratoire de dynamique des structures à l'Université de Saitama. Ma recherche porte sur l'efficacité des roulements d'isolation sismique en caoutchouc de silicone.",
+    about_content: "Je suis doctorant au laboratoire de Mécanique et de dynamique des structures à l'Université de Saitama. Ma recherche porte sur l'efficacité des appareils d'appui d'isolation sismique en silicone.",
     research_title: "Recherche",
-    research_content: "Ma recherche explore des techniques avancées en ingénierie sismique pour améliorer la sécurité et la résilience des structures.",
+    research_content: "Ma recherche explore des techniques avancées en technologie d'isolation sismique pour améliorer la sécurité et la résilience des batiments et des structures.",
     projects_title: "Projets",
-    projects_content: "<li>Roulements d'Isolation Sismique : Développement de modèles expérimentaux pour les roulements en caoutchouc de silicone.</li><li>Simulations en Mécanique des Milieux Continus : Application des principes pour simuler les contraintes et déformations dans les matériaux hyperélastiques.</li><li>Simulations MATLAB et Python : Création de modèles de simulation dynamique des structures.</li>",
+    projects_content: "<li>Appareil d'appui d'Isolation Sismique : Développement de modèles expérimentaux pour les appareils d'appui en silicone.</li><li>Simulations en Mécanique des Milieux Continus : Application des principes pour simuler les contraintes et déformations dans les matériaux hyperélastiques.</li><li>Simulations sur MATLAB et Python : Création de modèles de simulation mechanique et dynamique des structures.</li>",
     contact_title: "Contact",
     contact_content: 'N’hésitez pas à me contacter par email à <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> ou sur <a href="https://github.com/miharivoarthur">GitHub</a>.'
   },
