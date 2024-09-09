@@ -149,7 +149,7 @@ strong {
 img {
   position: relative;
   margin: 0;
-  border-radius: 0; <!-->50%<!-->
+  border-radius: 0; /*50%*/
   max-width: 150px;
   border: 1px solid #ebebeb;
   box-shadow: 0 0 5px #ebebeb;
