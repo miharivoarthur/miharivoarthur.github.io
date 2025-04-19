@@ -1,17 +1,4 @@
 const content = {
-ja: {
-    project_title: "アーサー・ラマンダリナ",
-    project_tagline: "博士課程 | 構造力学 | 免震研究者",
-    about_title: "私について",
-    about_content: "私は埼玉大学構造力学研究室で博士課程の学生です。私の研究は、免震ベアリングにおけるシリコンゴムの有効性を実験的に評価することに焦点を当てています。",
-    research_title: "研究",
-    research_content: "私の研究は、地震工学の先進技術を探求し、構造物の安全性と耐震性を向上させることに取り組んでいます。",
-    projects_title: "プロジェクト",
-    projects_content: "<li>免震ベアリング: シリコンゴムベアリングの実験モデルを開発。</li><li>連続体力学シミュレーション: 超弾性材料の応力と変形をシミュレートするための原理を適用。</li><li>MATLABおよびPythonシミュレーション: 構造動力学解析およびシミュレーションのための計算モデルを作成。</li>",
-    contact_title: "連絡先",
-    contact_content: 'メールでご連絡ください: <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> または <a href="https://github.com/miharivoarthur">GitHub</a>でご連絡ください。',
-    downloads_content: '<a href="assets/documents/English and Japanese.pdf" class="cv-link">履歴書</a>をダウンロードするか、 <a href="assets/videos/Self intro.mp4" class="video-link">自己紹介</a>をご覧ください。'
-  },
   en: {
     project_title: "Arthur RAMANDALINA",
     project_tagline: "Doctoral Student | Structural Dynamics | Seismic Isolation",
@@ -24,6 +11,19 @@ ja: {
     contact_title: "Contact",
     contact_content: 'Feel free to reach out to me via <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> or connect with me on <a href="https://github.com/miharivoarthur">GitHub</a>.',
     downloads_content: 'Download <a href="assets/documents/English and Japanese.pdf" class="cv-link">my CV</a> or watch <a href="assets/videos/Self intro.mp4" class="video-link">my Self Introduction</a>.'
+  },
+  ja: {
+    project_title: "アーサー・ラマンダリナ",
+    project_tagline: "博士課程 | 構造力学 | 免震研究者",
+    about_title: "私について",
+    about_content: "私は埼玉大学構造力学研究室で博士課程の学生です。私の研究は、免震ベアリングにおけるシリコンゴムの有効性を実験的に評価することに焦点を当てています。",
+    research_title: "研究",
+    research_content: "私の研究は、地震工学の先進技術を探求し、構造物の安全性と耐震性を向上させることに取り組んでいます。",
+    projects_title: "プロジェクト",
+    projects_content: "<li>免震ベアリング: シリコンゴムベアリングの実験モデルを開発。</li><li>連続体力学シミュレーション: 超弾性材料の応力と変形をシミュレートするための原理を適用。</li><li>MATLABおよびPythonシミュレーション: 構造動力学解析およびシミュレーションのための計算モデルを作成。</li>",
+    contact_title: "連絡先",
+    contact_content: 'メールでご連絡ください: <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> または <a href="https://github.com/miharivoarthur">GitHub</a>でご連絡ください。',
+    downloads_content: '<a href="assets/documents/English and Japanese.pdf" class="cv-link">履歴書</a>をダウンロードするか、 <a href="assets/videos/Self intro.mp4" class="video-link">自己紹介</a>をご覧ください。'
   },
   fr: {
     project_title: "Arthur RAMANDALINA",
