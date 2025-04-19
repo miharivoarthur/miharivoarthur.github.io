@@ -29,7 +29,7 @@ const content = {
     project_title: "Arthur RAMANDALINA",
     project_tagline: "Doctorant | Dynamique des Structures | Isolation Sismique",
     about_title: "À Propos",
-    about_content: "Je suis doctorant au laboratoire de Mécanique et de dynamique des structures à l'Université de Saitama. Ma recherche porte sur l'efficacité des appareils d'appui d'isolation sismique en silicone.",
+    about_content: "Je suis doctorant au laboratoire de mécanique et de dynamique des structures à l'Université de Saitama. Ma recherche porte sur l'efficacité des appareils d'appui d'isolation sismique en silicone.",
     research_title: "Recherche",
     research_content: "Ma recherche explore des techniques avancées en technologie d'isolation sismique pour améliorer la sécurité et la résilience des batiments et des structures.",
     projects_title: "Projets",
