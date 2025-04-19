@@ -1,9 +1,9 @@
 const content = {
   en: {
     project_title: "Arthur RAMANDALINA",
-    project_tagline: "Doctor Student | Structural Dynamics | Seismic Isolation",
+    project_tagline: "Doctoral Student | Structural Dynamics | Seismic Isolation",
     about_title: "About Me",
-    about_content: "I am a doctoral student in the Structural Mechanics and Dynamics Laboratory at Saitama University. My research focuses on assessing the effectiveness of silicone elastomer in seismic isolation bearings through experimental studies.",
+    about_content: "I am a student in the Structural Mechanics and Dynamics Laboratory at Saitama University. My research focuses on assessing the effectiveness of silicone elastomer in seismic isolation bearings through experimental studies.",
     research_title: "Research",
     research_content: "My research explores advanced techniques in isolation technologies to improve the safety and resilience of buildings and structures.",
     projects_title: "Projects",
