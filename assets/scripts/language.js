@@ -36,7 +36,7 @@ const content = {
     projects_content: "<li>Appareil d'appui d'Isolation Sismique : Développement de modèles expérimentaux pour les appareils d'appui en silicone.</li><li>Simulations en Mécanique des Milieux Continus : Application des principes analytiques pour simuler les contraintes et déformations dans les matériaux hyperélastiques.</li><li>Simulations sur MATLAB et Python : Création de modèles de simulation mechanique et dynamique des structures.</li>",
     contact_title: "Contact",
     contact_content: 'N’hésitez pas à me contacter par email à <a href="mailto:miharivoarthur@gmail.com">miharivoarthur@gmail.com</a> ou sur <a href="https://github.com/miharivoarthur">GitHub</a>.',
-    downloads_content: 'Télécharger <a href="assets/documents/English and Japanese.pdf" class="cv-link">mon CV</a> ou regarder <a href="assets/videos/Self intro.mp4" class="video-link">mon auto-introduction</a> (en Anglais).'
+    downloads_content: 'Télécharger <a href="assets/documents/English and Japanese.pdf" class="cv-link">mon CV</a> ou regarder <a href="assets/videos/Self intro.mp4" class="video-link">mon auto-introduction</a>.'
   }
 };
 
